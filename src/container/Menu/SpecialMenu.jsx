@@ -7,7 +7,7 @@ const SpecialMenu = () => (
   <div className='app__specialMenu section__padding flex__center'>
     <div className='app__specialMenu-title'>
         <SubHeading title='Menu That Fits Your Palatte' />
-        <h3 className='headtext__cormorant'>Today's Special</h3>
+        <h1 className='headtext__cormorant'>Today's Special</h1>
     </div>
     <div className='app__specialMenu-menu'>
       <div className='app__specialMenu-menu_wines flex__center'>
@@ -18,6 +18,7 @@ const SpecialMenu = () => (
           ))}
         </div>
       </div>
+      
       <div className='app__specialMenu-menu_img'>
         <img src={images.menu} alt="" />
       </div>
@@ -30,6 +31,9 @@ const SpecialMenu = () => (
           ))}
         </div>
       </div>
+    </div>
+    <div style={{ marginTop: 15 }}>
+      <button type="button" className="custom__button">View More</button>
     </div>
   </div>
 );
