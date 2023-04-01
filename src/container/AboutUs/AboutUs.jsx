@@ -3,7 +3,7 @@ import {images} from '../../constants'
 import './AboutUs.css';
 
 const AboutUs = () => (
-  <div className='app__aboutus app__bg section__padding flex__center' id='#pages'>
+  <div className='app__aboutus app__bg section__padding flex__center' id='pages'>
     <div className='app__aboutus-overlay flex__center'>
       <img src={images.G} alt="" />
     </div>
