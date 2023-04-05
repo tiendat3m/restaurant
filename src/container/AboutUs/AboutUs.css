@@ -56,3 +56,10 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .app__aboutus-overlay img {
+        width: 80%;
+        height: 320px;
+    }
+}

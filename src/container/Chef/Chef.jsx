@@ -14,7 +14,7 @@ const Chef = () => (
       <div className='app__chef-content'>
         <div className='app__chef-content_quote'>
           <img src={images.quote} alt="" />
-          <p className="p__cormorant">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Auctor Sit. </p>
+          <p className="p__opensans">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Auctor Sit. </p>
         </div>
         <p className="p__opensans">Auctor Sit Iaculis In Arcu. Vulputate Nulla Lobortis Mauris Eget Sit. Nulla Scelerisque Scelerisque Congue Ac Consequat, Aliquam Molestie Lectus Eu. Congue Iaculis Integer Curabitur Semper Sit Nunc.</p>
         <div className='app__chef-sign'>
