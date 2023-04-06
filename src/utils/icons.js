@@ -1,6 +1,6 @@
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdOutlineRestaurantMenu } from 'react-icons/md'
-import { BsFillPlayFill, BsPauseFill, BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs'
+import { BsFillPlayFill, BsPauseFill, BsInstagram, BsArrowLeftShort, BsArrowRightShort, BsFacebook, BsTwitter } from 'react-icons/bs'
 
 const icons = {
     GiHamburgerMenu,
@@ -9,7 +9,9 @@ const icons = {
     BsPauseFill,
     BsInstagram,
     BsArrowRightShort,
-    BsArrowLeftShort
+    BsArrowLeftShort,
+    BsFacebook,
+    BsTwitter,
 
 }
 
